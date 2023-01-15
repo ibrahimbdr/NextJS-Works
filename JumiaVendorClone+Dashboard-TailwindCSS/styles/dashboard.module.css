@@ -1,0 +1,138 @@
+.fixed_headers {
+    /* width: 750px; */
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  .fixed_headers th {
+    text-decoration: underline;
+  }
+  .fixed_headers th,
+  .fixed_headers td {
+    padding: 5px;
+    text-align: left;
+  }
+  .fixed_headers td:nth-child(1),
+  .fixed_headers th:nth-child(1) {
+    min-width: 80px;
+  }
+  .fixed_headers td:nth-child(2),
+  .fixed_headers th:nth-child(2) {
+    min-width: 100px;
+  }
+  .fixed_headers td:nth-child(3),
+  .fixed_headers th:nth-child(3) {
+    width: 100;
+  }
+  .fixed_headers thead {
+    background-color: #333;
+    color: #FDFDFD;
+  }
+  .fixed_headers thead tr {
+    display: block;
+    position: relative;
+  }
+  .fixed_headers tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+  }
+  .fixed_headers tbody tr:nth-child(even) {
+    background-color: #DDD;
+  }
+  .old_ie_wrapper {
+    height: 300px;
+    width: 750px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .old_ie_wrapper tbody {
+    height: auto;
+  }
+
+  .dashboardHeight{
+    min-height: calc(100vh - 205.55px) !important;
+  }
+
+  .registerHome{
+    background-color: #ffaa00;
+    color: #fff;
+    transition: 0.7s ease;
+    padding: 12px 30px;
+}
+.registerHome:hover{
+    background-color: #cc7700;
+    color: #fff;
+}
+
+.loginHome{
+    background-color: #717171;
+    color: #fff;
+    transition: 0.7s ease;
+    padding: 12px 25px;
+}
+
+.loginHome:hover{
+    background-color: #515151;
+    color: #fff;
+}
+
+.backg{
+    background-image: url(/svgviewer-output.svg);
+}
+
+.filter-orange{
+    filter: invert(100%);
+}
+
+.bgImg{
+    z-index: -10000;
+    margin-top: -370px;
+    height: 500px;
+    transform: rotate(-180deg);
+}
+
+.bgSVG{
+    transform: rotate(-180deg);
+    /* filter: invert(.75); */
+}
+
+.bgImg2{
+    z-index: -10000;
+    /* margin-top: -440px; */
+    /* height: 500px; */
+    transform: rotate(-180deg);
+}
+
+.navItem{
+  text-decoration: none;
+  display: inline-block !important;
+  transition: 0.4s ease;
+  margin: 0 12px;
+  color: #ffaa00;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.navItem:hover{
+  transform: scale(1.1) !important;
+  color: #cc7700;
+}
+
+.register{
+  background-color: #ffaa00;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 12px 30px;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.register:hover{
+  background-color: #fcb900;
+  color: #fff;
+}
+
+.pageHeight{
+  min-height: calc(100%) !important;
+}
